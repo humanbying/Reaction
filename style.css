@@ -1,0 +1,31 @@
+body {
+  background: linear-gradient(
+      to bottom,
+      rgba(20,20,20, .5),
+      rgba(20,20,20, .5)
+    ),url("http://pbblogassets.s3.amazonaws.com/uploads/2014/11/12f0a18c.jpeg");
+  background-size: cover;
+}
+
+button {
+  width: 50px;
+  height:50px;
+  position: relative;
+  padding-top: -50px;
+  font-family: sans-serif;
+  font-weight:bolder;
+  font-size: 13px;
+}
+
+#example {
+  color: white;
+  font-size: 100px;
+  text-align: center;
+  font-family: 'Droid Sans', sans-serif;
+  margin-top: 250px;
+  font-style: italic;
+  font-weight:bolder;
+  position: relative;
+
+
+}

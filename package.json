@@ -1,0 +1,24 @@
+{
+  "name": "react-day-1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "dependencies": {
+    "node-sass": "^3.8.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/humanbying/Reaction.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/humanbying/Reaction/issues"
+  },
+  "homepage": "https://github.com/humanbying/Reaction#readme"
+}

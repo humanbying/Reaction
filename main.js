@@ -7,7 +7,7 @@ var HelloWorld = React.createClass({
   addToCounter: function() {
     console.log('add!');
     this.setState({counter: this.state.counter + 1})
-    if(this.state.counter % 10 === 0) {
+    if(this.state.counter % 10 === 0 && this.state.counter !== 0) {
       alert("AWESOME!");
     }
   },
@@ -41,16 +41,11 @@ var HelloWorld = React.createClass({
         <button onClick={this.multiplyCounter}>*</button>
         <button onClick={this.divideCounter}>/</button>
         <button onClick={this.alertFartCounter}>Fart</button>
-
       </div>
     )
-    return (
-      <div>
-
-      </div>
-    );
   }
 });
+
 
 ReactDOM.render(
   <HelloWorld date={new Date()}/>,
